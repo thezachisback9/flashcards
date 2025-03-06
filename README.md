@@ -45,7 +45,7 @@ Describe any challenges encountered while building the app.
 
 I spent a while trying to decide whether i should have two different component things having one for the front of the card and one for the back but i decided to just have one since it's just one flashcard and i'd use a front and a back property for each notecard
 
-ALSO the gif is a bit glitched, it looks pretty smooth on the website, i think the low framerate makes it look really weird when the cards flip
+ALSO the gif is a bit glitched, it looks pretty smooth on the website, i think the low framerate makes the gif look  weird when the cards flip
 
 
 ## License
