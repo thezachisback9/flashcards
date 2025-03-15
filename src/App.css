@@ -17,7 +17,7 @@
   min-height: 100vh;
   background-size: cover;
   background-position: center;
-  
+
   background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/06/World-map-wallpaper-HD-download.jpg);
 }
 
@@ -85,4 +85,22 @@ button{
 
 button:hover{
   cursor: pointer;
+}
+
+.anss{
+  display: flex;
+  justify-content: center;
+}
+
+.correct, .incorrect{
+  color: white;
+  max-width: 100px;
+}
+
+.correct{
+  background-color: green;
+}
+
+.incorrect{
+  background-color: red;
 }

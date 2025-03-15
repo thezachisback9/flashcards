@@ -3,7 +3,9 @@ const Flipcards = (props) => {
   return (
     <div className = "flip">
         {props.info}
+        
     </div>
+    
   )
 }
 
