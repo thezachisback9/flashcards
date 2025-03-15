@@ -1,36 +1,35 @@
-# Web Development Project 2 - Geography flashcards
+# Web Development Project 3 - flashcards pt 2
 
 Submitted by: Zachary Amanuel
 
-This web app: quizzes you on your geography knowledge
+This web app: tests your geography knowledge with even better flashcards
 
-Time spent: 5 hours spent in total
+Time spent: 7 hours spent in total (1 or 2 hours for part 2 and around 4 or 5 for part 1)
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [X] **The title of the card set and some information about it, such as a short description and the total number of cards are displayed**
-- [X] **A single card at a time is displayed, only showing one of the components of the information pair**
-- [X] **A list of card pairs is created**
-- [X] **Clicking on the card shows the corresponding component of the information pair**
-- [X] **Clicking the next button displays a random new card**
+- [X] **The user can enter their guess in a box before seeing the flipside of the card**
+- [X] **Clicking on a submit button shows visual feedback about whether the answer was correct or incorrect**
+- [X] **A back button is displayed on the card and can be used to return to the previous card in a set sequence**
+- [X] **A next button is displayed on the card and can be used to navigate to the next card in a set sequence**
 
 The following **optional** features are implemented:
 
-- [ ] Cards contains images in addition to or in place of text
-- [ ] Cards have different visual styles such as color based on their category
-  - [ ] *visual style implemented*
+- [X] A shuffle button is used to randomize the order of the cards
+- [ ] A user's answer may be counted as correct even when it is slightly different from the target answer
+- [ ] A counter displays the user's current and longest streak of correct responses
+- [ ] A user can mark a card that they have mastered and have it removed from the pool of answers as well as added to a list of mastered cards
 
 The following **additional** features are implemented:
 
-* [X] added some stuff like shadows to the cards and a background image too
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented required features:
+Here's a walkthrough of implemented user stories:
 
-<img src='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXFzaXZrMG8xbWhxbjB4Y2hmZXU5OWZ6eWg2bWJoaDhiMnJwcXh0MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WxTsb8py3yjkoviJEr/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExeXo1eHFwd251YTM2YzEyZnNwdDUxN2l6aTI3dnlsam9saGl4MXIybiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mV41XO6Z2nsuvb8vpb/giphy.gif' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with Licecap  
@@ -41,13 +40,7 @@ GIF created with Licecap
 
 ## Notes
 
-Describe any challenges encountered while building the app.
-
-I spent a while trying to decide whether i should have two different component things having one for the front of the card and one for the back but i decided to just have one since it's just one flashcard and i'd use a front and a back property for each notecard
-
-ALSO the gif is a bit glitched, it looks pretty smooth on the website, i think the low framerate makes the gif look  weird when the cards flip
-
-
+storing the data that the user inputs into a variable
 ## License
 
     Copyright [yyyy] [name of copyright owner]
